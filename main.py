@@ -95,7 +95,7 @@ async def on_message(message):
 
         em.add_field(name="Keyword Matched", value=keyword_match[1])
 
-        em.set_footer(text=message.server.name + " x @snivyn | Keyword Notify", icon_url="https://i.imgur.com/eN3OhSG.jpg")
+        em.set_footer(text=message.server.name + " x @SharangaIO | Keyword Notify", icon_url="https://i.imgur.com/eN3OhSG.jpg")
 
         # Send the notification
         await client.send_message(message.channel, embed=em)
